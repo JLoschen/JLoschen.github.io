@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- font awesome only used for the search icon in the search bar -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet prefetch">
+
+    <script src="js/knockout-latest.js"></script> 
+    <script src="js/map-styles.js"></script> 
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div id="map" ></div>
+      <div id="options-box" data-bind="css: {active: showSideBar()}">
+        <h1>Neighborhood Map</h1>
+        <h2>Eau Claire WI</h2>
+        <div style="align-content: center;" align="center">
+          <span>Map Style:<select data-bind="options:mapStyles, optionsText: 'name', value: SelectedStyle "></select></span>
+        </div>
+        <hr>
+        <div class="search-form">
+            <form action="#">
+                <input type="text" placeholder="Search" data-bind="value: searchString, valueUpdate: 'afterkeydown'">
+                <button type="submit" id="search-btn" >
+                    <i class="fa fa-search"></i>    
+                </button>
+            </form>
+        </div>
+        
+        <div id="list-container" >
+          <ul class="locations" id="locationsList" data-bind="template: {name:'pinTemp', foreach:filterPins }"></ul>
+        </div>
+        <hr data-bind="visible: selectedModelId() != ''">
+        <h4 data-bind="visible: selectedModelId() != ''" id="pic-heading">Top 6 pictures</h4>
+        <div id="pic-container">
+          <ul id="pic-list" data-bind="template: {name:'imgTemp', foreach:selectedImages }"></ul>
+        </div>
+      </div>
+      <button type="submit" id="hamburger-btn" data-bind="event {click: toggleSidebar},css: {active: showSideBar()}">
+          <i class="fa fa-2x fa-bars"></i>        
+      </button>
+      
+    </div>
+  
+    <script id="pinTemp" type="text/html">
+      <li data-bind="text: title, event {mouseover: onHoverOver, mouseout: onMouseOut, click: onClick}, 
+      css: {selected: isSelected()}"></li> 
+      
+    </script>
+    <script id="imgTemp" type="text/html">
+      <li ><img data-bind="attr:{src: imgUrl}"> </li> 
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Oa2aGLT1-vm75cjiH6SSxSr9588skUM&v=3&callback=initMap">
+    </script>
+  </body>
+</html>
