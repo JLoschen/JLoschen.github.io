@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<!-- <title>Josh Loschen</title> -->
-	<title>Here!</title>
+	<title>Josh Loschen</title>
+	<!-- <title>Here!</title> -->
 	<meta content="" name="description">
     <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
 
@@ -12,188 +12,300 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<!-- favicon from https://realfavicongenerator.net/ -->
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="favicon/site.webmanifest">
-	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon2/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon2/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon2/favicon-16x16.png">
+	<link rel="manifest" href="favicon2/site.webmanifest">
+	<link rel="mask-icon" href="favicon2/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-    
-	<!-- bootstrap -->
-	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet prefetch"> -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script> -->
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div id="navdiv">
+	<div id="navdiv" style="position:fixed;">
 		<ul>
-			 <img src="JL Logo4.png" alt="logo">
-			 <li><a href="https://www.linkedin.com/in/joshua-loschen-1b524159/">Linked In</a></li>
-				<li><a href="pages/resume">Resume</a></li>
-				<li><a href="pages/about.html">About</a></li>
-				<li><a href="#">Sample Projects</a></li>
+			 <img src="img/JL Logo4.png" alt="logo">
+			<li><a href="https://www.linkedin.com/in/joshua-loschen-1b524159/">Linked In</a></li>
+			<!-- <li><a href="Resume/index.html">Resume</a></li> -->
+			<li><a href="About/">About</a></li>
 		</ul>
 	</div>
    <div id="maindiv">
-	   <!-- <div id="navdiv">
-		   <ul>
-				<img src="JL Logo4.png" alt="logo">
-				<li><a href="#">Linked In</a></li>
-			   	<li><a href="#">Resume</a></li>
-			   	<li><a href="#">About</a></li>
-			   	<li><a href="#">Sample Projects</a></li>
-		   </ul>
-	   </div> -->
 	   <div id="header-div">
 		   <header>
 			   <h1>Josh Loschen</h1>
 		   </header>
-		   <p>This is some text about Josh</p>
+		   <p>Here are some projects I'm proud of</p>
 	   </div>
    </div>
    <div id="main-wrapper">
-		<main>
-			<article class="project">
-				<img class="project-pic" src="SuperDuperJumper2.PNG" alt="super duper jumper" >
-				<div class="project-text">
-					<h3 class="project-title">Super Duper Jumper</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
-						<a href="https://play.google.com/store/apps/details?id=com.joshloschen.androidapps.jumper&hl=en" class="project-button" >View</a>
-						<!-- <a href="https://play.google.com/store/apps/details?id=com.joshloschen.androidapps.jumper&hl=en" class="project-button" >Git Hub</a> -->
-					</div>
-				</div>
-			</article>
+		 <main>
+			 <article id="intro">
+				 Thanks for checking out some of my sample projects. There are 8 projects below, the first 4 were projects I completed for the <a href="https://www.udacity.com/nanodegree"> Udacity Front End Developer Nanodegree</a>. 
+				 The next 3 are projects I did to practice WPF after leaving Menards where I was a .NET developer. The last one is an Android app I made while in college. The star rating out of 5 is my rating of how proud I am of the 
+				 project, which I'm defining as a combination of how much work I put into it combined with the quality of the work.
+			 </article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="ScreenShot3.PNG" alt="Neighborhood Map" >
-				<div class="project-text">
-					<h3 class="project-title">Neighborhood Map</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
+				<img class="project-pic" src="img/NeighborhoodMapStd.PNG" alt="Neighborhood Map" >
+				<h3 class="project-title">Neighborhood Map</h3>
+				<p class="summary">This was a pretty cool project for Udacity where we were supposed to provide a map of places in our neighborhood as well as use a 
+					3rd party API. The map allows the user to filter out locations on the left. It was also the first time I had used a JS framework instead of just 
+					writing vanilla Javascript. Coming from a WPF background I was all about using DataBinding and separation of concerns in this project.</p>
+				<p class="tech-used"><b>Tech Used:</b>Knockout JS, Fetch API, Google Maps API, 4square API </p>
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+					</ul>
+					<label class="date">February 2018</label>
+					<div class="buttons">
 						<a href="https://jloschen.github.io/NeighborhoodMap/index.html" class="project-button" >View</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/UdacityNeighborhoodMap" class="project-button" >Git Hub</a>
 					</div>
 				</div>
 			</article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="Frogger.PNG" alt="Frogger Arcade Game" >
-				<div class="project-text">
-					<h3 class="project-title">Frogger Arcade Game</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
+				<img class="project-pic" src="img/FroggerStd.PNG" alt="Frogger Arcade Game" >
+				<h3 class="project-title">Frogger Arcade Game</h3>
+				<p class="summary">This game is basically Frogger but with beatles instead of cars. The player has 3 lives and must get to the river 5 times to win. 
+					My initial instinct was to add a bunch of bells and whistles and new game mechanics but my experience with the feature creep making Super Duper Jumper 
+					had taught me to keep the game simple so the player can understand it.</p>
+				<p class="tech-used"><b>Tech Used:</b>Object Oriented Javascript , HTML5 canvas</p>
+					
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+					</ul>
+					<label class="date">January 2018</label>
+					<div class="buttons">
 						<a href="https://jloschen.github.io/Frogger/index.html" class="project-button" >View</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/Udacity-Frogger" class="project-button" >Git Hub</a>
 					</div>
 				</div>
 			</article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="Memory.PNG" alt="Memory Game" >
-				<div class="project-text">
-					<h3 class="project-title">Memory Game</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
+				<img class="project-pic" src="img/MemoryStd.PNG" alt="Memory Game" >
+				<h3 class="project-title">Memory Game</h3>
+				<p class="summary">This is the basic memory game that many of us played growing up, the goal is to match all 16 cards in as few turns as possible.
+					They allowed us to get creative for the correct and incorrect animations. Whether it's WPF or CSS I can never resist going over board making cool animations.</p>
+					<p class="tech-used"><b>Tech Used:</b>JQuery, CSS animations</p>
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+					</ul>
+					<label class="date">December 2017</label>
+					<div class="buttons">
 						<a href="https://jloschen.github.io/MemoryGame/index.html" class="project-button" >View</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/MemoryGame" class="project-button" >Git Hub</a>
 					</div>
 				</div>
 			</article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="Pixel Art.PNG" alt="Pixel Art" >
-				<div class="project-text">
-					<h3 class="project-title">Pixel Art</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
-						<a href="https://jloschen.github.io/PixelArt/index.html" class="project-button" >View</a>
-						<a href="https://github.com/JLoschen/PixelArt" class="project-button" >Git Hub</a>
+				<img class="project-pic" src="img/Pixel ArtStd.PNG" alt="Pixel Art" >
+				<h3 class="project-title">Pixel Art</h3>
+				<p class="summary">This project allows the user to make pixel art using whatever colors and Grid size they choose. 
+					Overall it's a real simple project which is good since it was my first time using Javascript. 
+					Coming from an Object Oriented background it took me a while to understand the 'this' keyword. </p>
+				<p class="tech-used"><b>Tech Used:</b>Vanilla Javascript</p>
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+					</ul>
+					<label class="date">December 2017</label>
+					<div class="buttons">
+						<a href="https://jloschen.github.io/PixelArt/index.html" class="project-button">View</a>
+					</div>
+					<div class="buttons">
+						<a href="https://github.com/JLoschen/PixelArt" class="project-button">Git Hub</a>
 					</div>
 				</div>
 			</article>
 			<hr>
-			<article class="project">
-				<img class="project-pic" src="PortfolioSite.PNG" alt="Portfolio Site" >
-				<div class="project-text">
-					<h3 class="project-title">Portfolio Site</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
+			<!-- Don't need to show these low level projects -->
+			<!-- <article class="project">
+				<div class="image-container">
+					<img class="project-pic" src="img/PortfolioSiteStd.PNG" alt="Portfolio Site" >
+				</div>
+				<h3 class="project-title">Portfolio Site</h3>
+				<div>
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+					</ul>
+				</div>
+				<label class="date">Dec 7th 2018</label>
+				<p class="tech-used">Tech Used:Basic HTML, CSS, FlexBox, Grid based layouts, Responsive Web Design</p>
+				<p class="summary">Summary:This project was the first for Udacity which assumed the student had no web experience at all so this wasn't too hard.  The site is supposed to be a personal site for a student to show off projects. I used alot of the same design features on this site.</p>
+					<div class="buttons">
 						<a href="https://jloschen.github.io/PortfolioSite/index.html" class="project-button" >View</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/UdacityPortfolioSite" class="project-button" >Git Hub</a>
 					</div>
-				</div>
 			</article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="JasmineTesting2.PNG" alt="Jasmine Unit Testing" >
-				<div class="project-text">
-					<h3 class="project-title">Jasmine Unit Testing</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
+				<div class="image-container">
+					<img class="project-pic" src="img/JasmineTestingStd.PNG" alt="Jasmine Unit Testing" >
+				</div>
+				<h3 class="project-title">Jasmine Unit Testing</h3>
+				<div>
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+					</ul>
+				</div>
+				<label class="date">Jan 22nd 2018</label>
+				<p class="tech-used">Jasmine Javascript Test Runner</p>
+				<p class="summary">Summary:This project just runs a set of simple Unit tests that make sure the Javascript 
+					was manipulating the UI correctly and displays the results at the bottom. I didn't realize until I did this project that people
+					wrote unit tests for UI stuff but I guess everything needs to be tested.
+				</p>
+					<div class="buttons">
 						<a href="https://jloschen.github.io/JasmineTesting/index.html" class="project-button" >View</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/Udacity-Jasmine-Testing" class="project-button" >Git Hub</a>
 					</div>
-				</div>
 			</article>
-			<hr>
+			<hr> -->
 			<article class="project">
-				<img class="project-pic" src="Flyout.PNG" alt="WPF Adorner Flyout" >
-				<div class="project-text">
-					<h3 class="project-title">WPF Adorner Flyout</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
-						<a href="https://jloschen.github.io/JasmineTesting/index.html" class="project-button" >Watch Demo</a>
+				<img class="project-pic" src="img/FlyoutStd.PNG" alt="WPF Adorner Flyout" >
+				<h3 class="project-title">WPF Adorner Flyout</h3>
+				<p class="summary">This user control allows any content to be placed in a section that "Fly's Out" from a corner or side. 
+					It's flexible enough to recognize the size of it's content and do the animation correctly.
+					Like I said in the Memory Game summary I love programming animation.</p>
+				<p class="tech-used"><b>Tech Used:</b>WPF Adorner, C#, XAML</p>
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+					</ul>
+					<label class="date">October 2017</label>				
+					<div class="buttons">
+						<a href="https://www.youtube.com/watch?v=ol5ddQmSmxs" class="project-button" >Watch Demo</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/WPF-Adorner-Flyout" class="project-button" >Git Hub</a>
 					</div>
 				</div>
 			</article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="RearrangingGrid.PNG" alt="WPF Rearranging Grid" >
-				<div class="project-text">
-					<h3 class="project-title">WPF Rearranging Grid</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
-						<a href="https://jloschen.github.io/JasmineTesting/index.html" class="project-button" >Watch Demo</a>
+				<img class="project-pic" src="img/RearrangingGridStd.PNG" alt="WPF Rearranging Grid" >
+				<h3 class="project-title">Rearranging Grid</h3>
+				<p class="summary">This User Control extends the basic WPF Grid by allowing a min width or min height where anything smaller will cause the Grid to rearrange or hide some of it's rows or columns.
+					 It's basically useful for doing the WPF version of Responsive design. If the window shrinks certain rows or columns containing less important elements can be hidden. 
+					 Also if the aspect ratio becomes too skinny or wide the contents can rearrange.</p>
+				<p class="tech-used"><b>Tech Used:</b> C#, WPF, XAML</p>
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+					</ul>
+					<label class="date">September 2017</label>
+					<div class="buttons">
+						<a href="https://www.youtube.com/watch?v=JK8h_UBDOuo" class="project-button" >Watch Demo</a>
+					</div>
+					<div class="buttons">
 						<a href="https://github.com/JLoschen/WPF-Rearranging-Grid" class="project-button" >Git Hub</a>
 					</div>
 				</div>
 			</article>
 			<hr>
 			<article class="project">
-				<img class="project-pic" src="Battleship.PNG" alt="WPF Battleship AI" >
-				<div class="project-text">
-					<h3 class="project-title">WPF Battleship AI</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure totam officiis repellendus aspernatur, assumenda recusandae minus reiciendis praesentium veritatis omnis, commodi accusantium excepturi. Cumque deserunt, impedit corrupti pariatur qui distinctio.
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quaerat dolore voluptate possimus reprehenderit molestias fuga obcaecati voluptatibus praesentium molestiae illo, facilis deleniti fugit, delectus cum perspiciatis sunt tenetur necessitatibus.
-					</p>
-					<div>
-						<a href="https://jloschen.github.io/JasmineTesting/index.html" class="project-button" >View</a>
-						<a href="https://github.com/JLoschen/WPF-BattleshipAI" class="project-button" >Git Hub</a>
+				<img class="project-pic" src="img/BattleshipStd.PNG" alt="WPF Battleship AI" >
+				<h3 class="project-title">WPF Battleship AI</h3>
+				<p class="summary">In college at <a href="https://www.uwstout.edu/">UW-Stout</a> I joined a battleship AI competition that the Computer Science club put on.
+				I had alot of fun doing it and spent way too much time in my college career trying new battleship strategies and tweeking my AI. The AI's played thousands of games 
+				against each other so to be successful your AI couldn't use the same strategy over and over, it had to adapt to what it's opponent was doing and update it's strategy. I had so much fun 
+				that when I needed a project to work on to keep my WPF skills sharp I decided to port the Java project to WPF. </p>
+				<p class="tech-used"><b>Tech Used:</b> C#, WPF, XAML</p>
+					<div class="bottom-row">
+						<ul class="stars">
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star-o"></i></li>
+						</ul>
+						<label class="date">October 2017</label>
+						<div class="buttons">
+							<a href="https://www.youtube.com/watch?v=lfeddptei-4" class="project-button" >Watch Demo</a>
+						</div>
+						<div class="buttons">
+							<a href="https://github.com/JLoschen/WPF-BattleshipAI" class="project-button" >Git Hub</a>
+						</div>
+					</div>
+			</article>
+			<hr>
+			<article class="project">
+				<img class="project-pic" src="img/SuperDuperJumperStd.PNG" alt="super duper jumper" >
+				
+				<h3 class="project-title">Super Duper Jumper</h3>
+				
+				<p class="summary">This Android app was an extension of a starter project from the book <a href="https://www.apress.com/us/book/9781430230427">Beginning Android Programming</a>. 
+				I only had 2 years of CS under my belt at the time and this was the first thing I programmed because I wanted to and not for an assignment. 
+				I added way too many concepts and everyone I’ve coerced into playing the game has been confused as to what exactly is going on. 
+				This project taught me to <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a>.</p>
+				<p class="tech-used"><b>Tech Used:</b>Android(Java, Android Play Store process), Game Dev(sprites, game physices, game loop)</p>
+				
+				<div class="bottom-row">
+					<ul class="stars">
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star"></i></li>
+						<li><i class="fa fa-star-o"></i></li>
+					</ul>
+					<label class="date">August 2014</label>
+					<div class="buttons">
+						<a href="https://www.youtube.com/watch?v=dqnqMLTesxc&feature=youtu.be" class="project-button" >Watch Demo</a>
+					</div>
+					<div class="buttons">
+						<a href="https://play.google.com/store/apps/details?id=com.joshloschen.androidapps.jumper&hl=en" class="project-button" >Google Play Store</a>
 					</div>
 				</div>
 			</article>
 		</main>
 	</div>
+	<script src="js/app.js"> </script>
 </body>
+</html>
