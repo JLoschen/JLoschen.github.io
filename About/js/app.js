@@ -18,7 +18,7 @@ $(function(){
     pointerText = new ScrollObject(1000, 1, 0, 0, -0.333, -1325, 22, -325, 355, $('#pointer-text'));
     fade1 = new FadeObject(1450, 2450, 326, 480, $('#fade1'));
     pinchHand = new ScrollObject(1800, -1, -0.5, 1, 0.5, 2010, 850, -1590, -950, $('#greenHand'));
-    pinchText = new ScrollObject(1800, -1, -0.5, 0, -0.333, 1460, 930, -326, 629, $('#pinch-text'));
+    pinchText = new ScrollObject(1800, -1, -0.5, 0, -0.333, 1474, 930, -326, 629, $('#pinch-text'));
     fade2 = new FadeObject(1300, 2300, 325, 770, $('#fade2'));
     orangeText = new ScrollObject(2400, 0, -0.5, 0, -0.333, -320, 1360, -320, 959, $('#orange-text'));
     orangeLeft = new ScrollObject(2400, 0, -0.5, -0.333, 0.5, -780, 1290, 19, -1110, $('#orange-left'));
@@ -64,7 +64,7 @@ function animate(){
     var distance = $win.scrollTop();
     // distance = 1799; 
 
-    //  displayOffsets(pinchHand);
+    //displayOffsets(pinchText);
 
     // var halfDistance = distance / 2;
     var thirdDistance = distance / 3;
