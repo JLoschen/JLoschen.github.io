@@ -115,17 +115,17 @@ function animate(){
     stoneText.update(distance, thirdDistance); 
     stone.update(distance, thirdDistance);
     if(distance < 6500){
-        $source($stone, 'stone_1.png');
+        $source($stone, 'stone_1.PNG');
     }else if(distance < 6800){
-        $source($stone, 'stone_2.png');
+        $source($stone, 'stone_2.PNG');
     }else if(distance < 7100){
-        $source($stone, 'stone_3.png');
+        $source($stone, 'stone_3.PNG');
     }else if(distance < 7400){
-        $source($stone, 'stone_4.png');
+        $source($stone, 'stone_4.PNG');
     }else if(distance < 7700){
-        $source($stone, 'stone_5.png');
+        $source($stone, 'stone_5.PNG');
     }else {
-        $source($stone, 'stone_6.png');
+        $source($stone, 'stone_6.PNG');
     }
 
     fade6.update(distance, thirdDistance);
@@ -163,10 +163,10 @@ class ScrollObject{
             $top(this.theObject, midY + this.ySpeed1 * scrollDistance + this.yOffset);
 
             //if(this.theObject === $doubleHandText){
-            if(this === jet){
-                console.log('pre left '+ (this.theObject,midX + this.xSpeed1 * scrollDistance + this.xOffset));
-                console.log('pre top '+ (midY + this.ySpeed1 * scrollDistance + this.yOffset));
-            }
+            // if(this === jet){
+            //     console.log('pre left '+ (this.theObject,midX + this.xSpeed1 * scrollDistance + this.xOffset));
+            //     console.log('pre top '+ (midY + this.ySpeed1 * scrollDistance + this.yOffset));
+            // }
         } else {
             $left(this.theObject, midX + this.xSpeed2 * scrollDistance + this.xOffset2);
             $top(this.theObject, midY + this.ySpeed2 * scrollDistance + this.yOffset2);
@@ -248,7 +248,7 @@ function $opacity(element, opacity1){
 
 function $source(element, newSource){
     if(element){
-        element.attr('src', 'img/Hands/'+newSource);
+        element.attr('src', 'img/ScrollObjects/'+newSource);
     }else{
         console.log('source, undefined!');
     }

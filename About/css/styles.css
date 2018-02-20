@@ -11,8 +11,9 @@ body {
 footer{
     width:100%;
     background-color: #222;
-    padding: -100px;
-    height: 100px;
+    /* padding: -100px; */
+    /* height:100px; */
+    height: 200px;
     position:absolute;
 }
 
@@ -23,7 +24,8 @@ footer{
 }
 
 footer nav ul{
-    margin: 25px 0px;
+    margin: 25px 0px 100px;
+    /* margin: 0px; */
 }
 
 footer nav ul li{
