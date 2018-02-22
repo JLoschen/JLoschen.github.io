@@ -21,6 +21,14 @@ hr {
     background-size: cover;
 }
 
+#maindiv header{
+    padding: 0 40px 0 0;
+}
+
+#maindiv p{
+    padding: 0 45px 0 0;
+}
+
 #navdiv {
     position: fixed;
     background:rgba(0, 0, 0, 0.4);
